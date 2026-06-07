@@ -1,0 +1,26 @@
+[project]
+name = "dasc2026-mechinterp"
+version = "0.1.0"
+description = "DASC 2026, Mechanistic interpretability for vision-based aircraft landing"
+requires-python = ">=3.12"
+dependencies = [
+    "torch",
+    "torchvision",
+    "timm",
+    "datasets",
+    "Pillow",
+    "numpy",
+    "huggingface-hub>=1.6.0",
+    "h5py",
+    "scipy",
+    "scikit-learn>=1.8.0",
+    "typer>=0.12",
+    "rich",
+]
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

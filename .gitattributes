@@ -1,0 +1,2 @@
+# Vendored third-party Julia dependency: exclude from GitHub language stats.
+libs/KSVD.jl/** linguist-vendored
